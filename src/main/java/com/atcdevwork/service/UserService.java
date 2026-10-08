@@ -16,3 +16,4 @@ public interface UserService {
   Page<UserEntity> findByUserName(String userName, Pageable pageable);
 
 }
+ 

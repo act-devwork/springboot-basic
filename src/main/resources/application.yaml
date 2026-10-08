@@ -36,3 +36,7 @@ spring:
       group-id: otp-group-id
       auto-offset-reset: earliest
       enable-auto-commit: true
+
+logging:
+  level:
+    org.springframework.security: DEBUG
